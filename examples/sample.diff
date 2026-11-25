@@ -1,0 +1,8 @@
+diff --git a/src/service.py b/src/service.py
++++ b/src/service.py
++def ping() -> str:
++    return "pong"
+diff --git a/tests/test_service.py b/tests/test_service.py
++++ b/tests/test_service.py
++def test_ping() -> None:
++    assert True
